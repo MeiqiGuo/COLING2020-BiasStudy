@@ -1,6 +1,6 @@
 # Inflating Topic Relevance with Ideology: A Case Study of Political Ideology Bias in Social Topic Detection Models
 
-This is a PyTorch implementation of the experiments described in our paper accpected in COLING 2020.
+This is a PyTorch implementation of the experiments described in our paper accepted in COLING 2020.
 
 ## Environment Setup
 
