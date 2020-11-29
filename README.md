@@ -11,7 +11,7 @@ This is a PyTorch implementation of the experiments described in our paper accpe
 
 1) Pre-process data;
 
-We used Tweets collected by [Yang, et al.](https://github.com/picsolab/TRIBAL-release) as our raw data corpus. We pre-processed the tweets by 1) removing all emoji; 2) removing all website links; 3) removing @\[USER\]. You could do any pre-processing here for your own purpose. Then we created training and dev sets by using seed keywords. Please refer to our paper for more information. The final format of the train and dev data should be a csv file with one tweet instance per line. Each line has three elements which are respectively the political group label ("blue"/"red"), the tweet text and the label for the topic relevance ("0"/"1").
+We used Tweets collected by [Yang, et al.](https://github.com/picsolab/TRIBAL-release) as our raw data corpus. We pre-processed the tweets by 1) removing all emoji; 2) removing all website links; 3) removing @\[USER\]. You could do any pre-processing here for your own purpose. Then we created training and dev sets by using seed keywords. Please refer to our paper for more information. The final format of the train and dev data should be a csv file with one tweet instance per line. Each line has three elements which are respectively the political group label (Blue/Red), the tweet text and the label for the topic relevance (0/1).
 
 2) Change configuration files in the folder "myallennlp/training_config" by adding the paths to training and dev datasets;
 
